@@ -1,0 +1,175 @@
+/* Costum your css */
+.x-normal\:bookmark {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--white-color) !important;
+    background-color: var(--red-color-2) !important;
+    color: var(--white-color) !important;
+    font-weight: 700;
+    font-size: 13px;
+}
+.x-relative\:normal {
+    position: relative;
+}
+.to-top {
+    top: 40px;
+}
+
+.to-top.x-fixed {
+    position: fixed;
+    max-width: 25%;
+    right: 10px;
+}
+@media (max-width: 639px) {
+    .sm\:copy-image {
+        width: 35px;
+        height: 35px;
+    }
+    .sm\:x-banner\:position {
+        position: relative;
+    }
+    .sm\:x-banner\:position img {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 50px;
+        left: -100px;
+        z-index: -1;
+    }
+    .sm\:x-search\:normal {
+        background-color: var(--red-color-1);
+    }
+    .sm\:x-search\:normal form {
+        padding: 10px;
+        display: flex;
+    }
+    .sm\:x-form\:control {
+        padding: 5px;
+        border-radius: 20px;
+        width: 68%;
+        background: var(--light-color-1);
+        margin-right: 5px;
+    }
+    .sm\:sticky\:top {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 1028;
+    }
+    .sm\:height\:x-vh\:100 {
+        height: 100% !important;
+    }
+    .to-top {
+        top: 0;
+    }
+    .to-top.x-fixed {
+        position: relative;
+        max-width: 100%;
+        right: 0;
+    }
+}
+@media (min-width: 640px) and (max-width:1024px) {}
+
+.x-content\:bookmark {
+    margin: 15px 0;
+}
+.lg\:s-image\:medium {
+    transform: scale(0.8);
+}
+.lg\:border\:none {
+    border: none !important;
+}
+.lg\:x-fixed {
+    width: 260px;
+    max-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -260px;
+    bottom: 0;
+    z-index: 1029;
+    transition: left 0.3s ease;
+}
+.lg\:x-shadow\:light {
+    box-shadow: 0px 10px 10px rgba(255,255,255,0.3);
+}
+.x-menu {
+    display: block;
+    font-size: 18px;
+}
+.x-menu:hover {
+    cursor: pointer;
+}
+.x-sidebar {
+    min-height: 100vh;
+}
+
+.lg\:height\:vh\:100 {
+    height: 100vh;
+}
+.lg\:max-width\:100 {
+    max-width: 100%;
+}
+.lg\:x-search\:normal {
+    background-color: var(--white-color);
+}
+.lg\:x-search\:normal form {
+    padding: 10px;
+    display: flex;
+}
+.lg\:x-form\:control {
+    padding: 5px 16px;
+    border-radius: 20px;
+    width: 80%;
+    background: var(--dark-color-2);
+    border-color: var(--dark-color-1) !important;
+    color: white !important;
+    margin-right: 5px;
+}
+.lg\:x-form\:control::placeholder {
+    color: #fff !important;
+}
+
+.x-card\:color {
+    width: 25%;
+    display: grid;
+    place-items: center;
+
+}
+
+.x-sidebar.active {
+
+    left: 0;
+}
+@media (max-width:768px) {
+
+}
+@media (max-width:641.5px) {
+    .x-sidebar {
+        display:;
+    }
+    .x-sidebar.active {
+        display: inline-block;
+    }
+    .x-sidebar.active li a {
+        display: inline-block !important;
+    }
+    .x-menu {
+        display: block;
+    }
+}
+.x-side li.active {
+    transition: all 0.3s ease;
+}
+.bg-video {
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
